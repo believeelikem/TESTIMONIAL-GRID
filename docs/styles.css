@@ -45,6 +45,7 @@ h3{
 
 .grid-container{
   max-width: 100rem;
+  width: 100%;
   display: grid;
   grid-template-columns:repeat(4,1fr);
   gap: 2.5rem;
@@ -154,4 +155,29 @@ h3{
 .grid-container__details {
   position: relative;
   z-index: 2;  
+}
+
+@media(max-width:400px){
+  html{
+    font-size: 50%;
+    
+  }
+  body{
+    background-color: aquamarine
+  }
+
+  .grid-container__item--1,
+  .grid-container__item--3,
+  .grid-container__item--5 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .grid-container{
+    grid-template-columns:  1fr;
+    width: 80%
+  }
+
+
+
+
 }
