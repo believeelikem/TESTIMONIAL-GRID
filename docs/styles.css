@@ -50,6 +50,7 @@ h3{
   grid-template-columns:repeat(4,1fr);
   gap: 2.5rem;
   color:hsl(0, 0%, 100%) ;
+  box-shadow: 3px 3px 15px 5px rgb(222, 220, 220);
 }
 
 .grid-container__item--1{
