@@ -1,18 +1,18 @@
 /* barlow-semi-condensed-500 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Barlow Semi Condensed';
   font-style: normal;
   font-weight: 500;
-  src: url('./fonts/barlow-semi-condensed-v16-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('./fonts/barlow-semi-condensed-v16-latin-500.woff2') format('woff2'); 
 }
 /* barlow-semi-condensed-600 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Barlow Semi Condensed';
   font-style: normal;
   font-weight: 600;
-  src: url('./fonts/barlow-semi-condensed-v16-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('./fonts/barlow-semi-condensed-v16-latin-600.woff2') format('woff2'); 
 }
 
 *{
@@ -98,6 +98,12 @@ h3{
   color: hsl(0, 0%, 81%);
 }
 
+
+.grid-container__avatar {
+  border-radius: 50%;
+  width: 3rem;
+}
+
 .grid-container__avatar--1{
   border: 2px solid hsl(264, 82%, 80%);
 }
@@ -115,11 +121,6 @@ h3{
 .grid-container__details{
   display: flex;
   gap: 2rem;
-}
-
-.grid-container__avatar {
-  border-radius: 50%;
-  width: 3rem;
 }
 
 .grid-container__identity{
